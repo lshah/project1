@@ -1,0 +1,23 @@
+
+@media screen and (min-width: 1150px) {
+    .project-container {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .project-container {
+        flex-direction: column;
+    }
+    .project {
+        border: none;
+        justify-content: space-around;
+        padding-top: 15px;
+    }
+    .project-card {
+        height: 1500px;
+    }
+
+}
