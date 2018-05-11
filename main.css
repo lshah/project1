@@ -1,6 +1,7 @@
 /*font-family: 'Marck Script', cursive;
 font-family: 'Economica', sans-serif;
-font-family: 'Gaegu', cursive;*/
+font-family: 'Gaegu', cursive;
+font-family: 'Pacifico', cursive;*/
 
 body {
     margin: 0;
@@ -14,6 +15,32 @@ body {
     font-family: 'Gaegu', cursive;
 }
 
+.header {
+    height: 50px;
+    width: auto;
+    background: lightgray;
+    padding: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+.heading {
+    font-size: 2em;
+    margin: -15px 35px 0px 0px;
+    text-align: right;
+}
+
+.sub-text {
+    margin: 0px 25px 0px 0px;
+    font-family: 'Economica', sans-serif;
+    font-size: 1.2em;
+    text-align: right;
+}
+
+.logo-main {
+    margin-top: -70px;
+    margin-left: -10px;
+}
+
 .card {
     position: relative;
     min-height: 700px;
@@ -25,13 +52,13 @@ body {
 }
 
 .navigation {
-    height: 120px;
-    width: 180px;
+    height: 170px;
+    width: 300px;
     background: red;
     position: fixed;
     margin-bottom: 100px;
     z-index: 1;
-    margin-left: -156px;
+    margin-left: -250px;
     animation-name: navpulse;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
@@ -51,8 +78,9 @@ body {
 
 /*The CSS validator shows this as the error on line 54 - Unknown pseudo-element or pseudo-class :focus-within - 
 This is the only way I could set focus on the nav links when using only the keyboard.*/
-.navigation:hover, .navigation:focus-within {
-    margin-left: 0;
+.navigation:hover,
+.navigation:focus-within {
+    margin-left: -100px;
     animation: none;
 }
 
@@ -63,7 +91,7 @@ This is the only way I could set focus on the nav links when using only the keyb
 
 .list {
     margin: -15px;
-    padding: 3px;
+    padding: 10px;
     text-align: center;
     font-size: 1.7em;
 }
@@ -93,8 +121,6 @@ This is the only way I could set focus on the nav links when using only the keyb
     margin: 10px 20%;
     text-align: center;
 }
-
-.profile-pic {}
 
 .profile-pic img {
     height: 150px;
@@ -165,6 +191,6 @@ This is the only way I could set focus on the nav links when using only the keyb
     color: black;
 }
 
-.logo {
+.stamp {
     padding: 50px;
 }
