@@ -51,12 +51,12 @@ body {
 
 .navigation {
     height: 125px;
-    width: 300px;
+    width: 250px;
     background: red;
     position: fixed;
     margin-bottom: 100px;
     z-index: 1;
-    margin-left: -250px;
+    margin-left: -200px;
     animation-name: navpulse;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
@@ -91,8 +91,8 @@ This is the only way I could set focus on the nav links when using only the keyb
 }
 
 .nav-icon {
-    margin-left: 220px;
-    margin-top: -67px;
+    margin-left: 210px;
+    margin-top: -78px;
 }
 
 .nav-icon img {
@@ -113,8 +113,15 @@ This is the only way I could set focus on the nav links when using only the keyb
 
 .list a,
 .card-footer a {
-    color: white;
     text-decoration: none;
+}
+
+.list a {
+    color: white;
+}
+
+.card-footer a {
+    color: black;
 }
 
 .titles {
