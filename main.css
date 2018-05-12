@@ -52,7 +52,7 @@ body {
 .navigation {
     height: 125px;
     width: 250px;
-    background: red;
+    background: #A30051;
     position: fixed;
     margin-bottom: 100px;
     z-index: 1;
@@ -182,11 +182,11 @@ This is the only way I could set focus on the nav links when using only the keyb
     bottom: 0;
     margin-bottom: 10px;
     transform: skewY(-2deg);
-    background: tomato;
+    background: #D482AD;
 }
 
 .card-footer p {
-    color: white;
+    color: black;
     text-align: right;
     margin-top: 10px;
     margin-right: 10px;
