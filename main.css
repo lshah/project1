@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 900px;
-    font-family: 'Gaegu', cursive;
+    font-family: 'Economica', sans-serif;
 }
 
 .header {
@@ -20,7 +20,6 @@ body {
     width: auto;
     background: lightgray;
     padding: 25px;
-    font-family: 'Pacifico', cursive;
 }
 
 .heading {
@@ -31,13 +30,12 @@ body {
 
 .sub-text {
     margin: 0px 25px 0px 0px;
-    font-family: 'Economica', sans-serif;
     font-size: 1.2em;
     text-align: right;
 }
 
 .logo-main {
-    margin-top: -70px;
+    margin-top: -50px;
     margin-left: -10px;
 }
 
@@ -52,7 +50,7 @@ body {
 }
 
 .navigation {
-    height: 170px;
+    height: 125px;
     width: 300px;
     background: red;
     position: fixed;
@@ -76,8 +74,10 @@ body {
     }
 }
 
+
 /*The CSS validator shows this as the error on line 54 - Unknown pseudo-element or pseudo-class :focus-within - 
 This is the only way I could set focus on the nav links when using only the keyboard.*/
+
 .navigation:hover,
 .navigation:focus-within {
     margin-left: -100px;
@@ -87,11 +87,26 @@ This is the only way I could set focus on the nav links when using only the keyb
 .nav-list {
     list-style: none;
     color: white;
+    margin-top: 10px;
+}
+
+.nav-icon {
+    margin-left: 220px;
+    margin-top: -67px;
+}
+
+.nav-icon img {
+    height: 25px;
+    width: 25px;
+}
+
+.nav-list,
+.nav-icon {
+    display: block;
 }
 
 .list {
-    margin: -15px;
-    padding: 10px;
+    margin-bottom: 5px;
     text-align: center;
     font-size: 1.7em;
 }
@@ -103,7 +118,6 @@ This is the only way I could set focus on the nav links when using only the keyb
 }
 
 .titles {
-    font-family: 'Economica', sans-serif;
     text-align: center;
     font-size: 4em;
     position: relative;
@@ -117,16 +131,17 @@ This is the only way I could set focus on the nav links when using only the keyb
     flex-wrap: wrap;
 }
 
-.profile-content {
-    margin: 10px 20%;
-    text-align: center;
-}
-
 .profile-pic img {
     height: 150px;
     width: 150px;
     border-radius: 50%;
     background: white;
+}
+
+.profile-content {
+    margin: 20px 20%;
+    text-align: center;
+    font-size: 1.4em;
 }
 
 .project-container {
@@ -145,7 +160,6 @@ This is the only way I could set focus on the nav links when using only the keyb
     border-top: transparent;
     border-bottom: transparent;
     border-left: transparent;
-    font-family: 'Economica', sans-serif;
     font-size: 1.2em;
     text-align: center;
 }
